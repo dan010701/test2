@@ -1,0 +1,226 @@
+@font-face {
+  font-family: "Yeseva One";
+  src: url(../fonts/YesevaOne.otf);
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url(../fonts/Lato.ttf);
+}
+
+@font-face {
+  font-family: "GenB";
+  src: url(../fonts/GenB.ttf);
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 1600px;
+}
+
+.button {
+  box-sizing: border-box;
+  border: 1px solid black;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  display: inline-block;
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px 35px;
+  margin-top: 30px;
+}
+
+.button-book {
+  margin-right: 30px;
+}
+
+.button-menu {
+  border: 1px solid #fff;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin-left: -5px;
+}
+
+.container {
+  background-attachment: fixed;
+  background-image: url(../images/background/Bg.png);
+  background-position: 50% 0px;
+  height: 750px;
+  width: 1600px;
+}
+
+.divider {
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.logo {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 35px;
+  padding-left: 175px;
+}
+
+.logo-title {
+  margin: 0;
+}
+
+.logo-link {
+  color: #fff;
+  font-family: "Yeseva One", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav,
+.nav-bar {
+  display: inline-block;
+ }
+
+ .nav {
+  padding-left: 210px;
+ }
+
+.main-menu {
+  font-size: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+ }
+
+.main-menu .menu-button {
+  box-sizing: border-box;
+  display: inline-block;
+  margin:0px;
+ }
+
+ .main-menu .menu-button:first-child {
+  margin-left: 0;
+ }
+
+.menu-button .menu-link {
+  color: #fff;
+  display: block;
+  font-family: "GenB", sans-serif;
+  font-size: 21px;
+  overflow: hidden;
+  padding: 44px 30px;
+  text-decoration: none;
+ }
+
+ .main-menu .menu-button:hover a {
+  border-top: 5px solid #c9c6ba;
+  padding-top: 39px;
+ }
+
+.header {
+  position: relative;
+  z-index: 2;
+}
+
+.container::before {
+  content: "";
+  top: -110px;
+  left: 150px;
+  position: absolute;
+  height: 100px;
+  box-shadow: 0px 55px 82px -20px rgba(0, 0, 0, 0.75);
+  width: 1600px;
+  z-index: 1;
+}
+
+.socials {
+  display: inline-block;
+  vertical-align: top;
+ }
+
+.socials .social-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+ }
+
+.social-button {
+  box-sizing: border-box;
+  display: inline-block;
+  margin:0px;
+  margin-left: -4px;
+  padding: 36px 0;
+ }
+
+.social-button .social-link {
+  color: #dab33e;
+  display: block;
+  font-size: 21px;
+  padding: 8px 5px;
+  text-decoration: none;
+ }
+
+.social-button .social-link:hover {
+  color: #f0c955;
+  text-shadow: 1px 1px 2px #000;
+ }
+
+.social-button:first-child {
+  margin-left: 0px;
+ }
+
+.intro {
+  text-align: center;
+  padding-top: 110px;
+  margin-bottom: 155px;
+}
+
+.main-title {
+  color: #fff;
+  font-family: "Yeseva One", sans-serif;
+  font-size: 90px;
+  text-shadow:  1px 1px 2px #000;
+}
+
+.first-section{
+  background:  url("../images/background/pattern.png"), url("../images/background/section-1.png");
+  padding-bottom: 27px;
+}
+
+.man {
+  padding-left: 70px;
+  padding-top: 30px;
+}
+
+.content {
+  text-align: center;
+  margin-left: 80px;
+  width: 430px;
+}
+
+.content-title {
+  color: #cc9900;
+  font-family: "Yeseva One", sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.quote {
+  color: #4c4c4c;
+  font-family: "Lato", sans-serif;
+  line-height: 24px;
+  margin-top: 34px;
+}
+
+.flex-box {
+  align-items: center;
+  display: flex;
+  padding-top: 58px;
+  justify-content: center;
+}
